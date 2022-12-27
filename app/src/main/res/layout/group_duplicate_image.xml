@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/imagelayout" android:layout_width="90.0dip" android:layout_height="90.0dip" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_duplicate_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="2.0dip" android:src="@drawable/rsz_empty_photo" android:scaleType="centerCrop" android:adjustViewBounds="true" android:contentDescription="@null" />
+    <CheckBox android:id="@id/individualcheckbox" android:background="@drawable/customcheckbox" android:layout_width="@dimen/group_checkbox_width_height" android:layout_height="@dimen/group_checkbox_width_height" android:layout_marginRight="@dimen/group_checkbox_margin_bottom_right" android:layout_marginBottom="@dimen/group_checkbox_margin_bottom_right" android:button="@null" android:layout_alignTop="@id/img_duplicate_image" android:layout_alignRight="@id/img_duplicate_image" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/show_size_on_image" android:background="@color/top_bg" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_alignBottom="@id/img_duplicate_image" />
+</RelativeLayout>

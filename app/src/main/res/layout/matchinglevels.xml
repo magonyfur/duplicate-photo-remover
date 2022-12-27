@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_total_layout" android:background="@android:color/white" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.08">
+        <RelativeLayout android:id="@id/rl_title" android:background="@color/top_bg" android:layout_width="fill_parent" android:layout_height="60.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/matching_levels" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:weightSum="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip">
+                <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Matching Level" />
+                <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/matching_levels_condition" />
+            </LinearLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip">
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar android:id="@id/seekbarWithIntervals" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" app:dsb_indicatorColor="@color/top_bg" app:dsb_max="10" app:dsb_min="1" app:dsb_progressColor="@color/top_bg" app:dsb_trackColor="@color/top_bg" app:dsb_value="-2" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <CheckBox android:id="@id/default_check_box" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="10.0dip" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Default" />
+                </LinearLayout>
+                <TextView android:textStyle="bold" android:textColor="@color/black" android:id="@id/matching_level_offsets" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:layout_weight="-0.3" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:weightSum="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip">
+                <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Notification" />
+                <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(Notifies on finding number of duplicates)" />
+            </LinearLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip">
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar android:id="@id/seekbarWithIntervalsNotification" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" app:dsb_indicatorColor="@color/top_bg" app:dsb_max="10" app:dsb_min="1" app:dsb_progressColor="@color/top_bg" app:dsb_trackColor="@color/top_bg" app:dsb_value="-2" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <CheckBox android:id="@id/default_check_box_Notification" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="10.0dip" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Default" />
+                </LinearLayout>
+                <TextView android:textStyle="bold" android:textColor="@color/black" android:id="@id/matching_level_offsets_Notification" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:layout_weight="-0.3" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip">
+            <Button android:textSize="15.0dip" android:textColor="@color/white" android:id="@id/dialog_matching_level_cancel" android:background="@color/top_bg" android:layout_width="100.0dip" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="10.0dip" android:text="Cancel" android:layout_weight="1.0" />
+            <Button android:textSize="15.0dip" android:textColor="@color/white" android:id="@id/dialog_matching_level_ok" android:background="@color/top_bg" android:layout_width="100.0dip" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="20.0dip" android:text="ok" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

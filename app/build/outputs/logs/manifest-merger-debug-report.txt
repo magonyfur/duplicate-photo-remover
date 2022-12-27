@@ -1,0 +1,390 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:1:55-34:12
+INJECTED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:1:55-34:12
+INJECTED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:1:55-34:12
+INJECTED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:1:55-34:12
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\magon\.gradle\caches\transforms-3\dc0eefeed2b91b9e6e248b9609327da3\transformed\jetified-library-2.1.4\AndroidManifest.xml:2:1-10:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\magon\.gradle\caches\transforms-3\4acacd2bc28d5ade8cea2b5f80465579\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\magon\.gradle\caches\transforms-3\0a618c83a77921ceebb5baa15018e71e\transformed\jetified-glide-4.8.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.material:material:1.6.0] C:\Users\magon\.gradle\caches\transforms-3\0a5353227f73467546d5456b9956b17e\transformed\material-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\magon\.gradle\caches\transforms-3\ef5460a38d188d8fe3b3011ceeafaf1a\transformed\jetified-appcompat-resources-1.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\magon\.gradle\caches\transforms-3\38be96212fbf94c042b66189f154e58f\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\magon\.gradle\caches\transforms-3\e6ac26bc31b0525876c1ee0daa4b42b9\transformed\appcompat-1.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\ba0aa6a05d70330df74ef86e3e66c416\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\59cf86b0e95c42c757877b47490fe1ff\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\magon\.gradle\caches\transforms-3\a7a3148192a0b7e08961cefd80a0b19d\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\ad407481afe78ca634ed4ad0a3669d85\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\magon\.gradle\caches\transforms-3\19c95bad50625a1755e0a425074f0a84\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\magon\.gradle\caches\transforms-3\6df8e99c50d10315cc2522c2ee00ae96\transformed\jetified-gifdecoder-4.8.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\magon\.gradle\caches\transforms-3\5fed0b232906c83cf5a2dd4ab6235adb\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.1] C:\Users\magon\.gradle\caches\transforms-3\fbb7152fb5e5896e301d973bc4c86e5a\transformed\jetified-activity-1.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\c11fbe87c75d8fe6428fb821027ed111\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\abd7aaeb79eae65c1bd1e0e024975ffc\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\89288d471df0a01a25fc4f1bda82615a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\f0cab340ec6bb2cd6987c858e490b680\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\magon\.gradle\caches\transforms-3\949540cf97b73edd0867422b27839614\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\magon\.gradle\caches\transforms-3\dd5a35773a831c38ad0f8a9228c42db9\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\magon\.gradle\caches\transforms-3\ef66357e44e61211fd999bc0b772af61\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\decfbcb37dc8b41266844afbfb1f067a\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\c45f6ae8a109b7db9dbad709e883ce96\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\magon\.gradle\caches\transforms-3\7d1b5a610444545961236545946853fb\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\magon\.gradle\caches\transforms-3\095124a5932bc72401f54ebaedaf9de5\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\8665c694f9f29322a821e2e352139399\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\magon\.gradle\caches\transforms-3\8d54b194ad1e83c8045b6464cb195c0e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\magon\.gradle\caches\transforms-3\df6d1d33def4b10b0423cee40a7bdb7a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\a27c6aa758d032b426a7d4666caa658d\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\734d9af1af9e8df1bb09c4b95ff0dac1\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\dbf065fb828ca57a98cd6512f2e20cc9\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\4c3df3124742de66495eccc736592590\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\magon\.gradle\caches\transforms-3\684a2495bc5be7cf5f5d25e0bc1f6cce\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.8.0] C:\Users\magon\.gradle\caches\transforms-3\817b2fb9475b60d41f673b4294c05843\transformed\core-1.8.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\1c7dcfd24ba625f74349331b28a8d942\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\magon\.gradle\caches\transforms-3\8508431b56924959a90c594cfba04620\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\magon\.gradle\caches\transforms-3\1833f4e8a2d3ce47a893859fffcb915e\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\a183006c3d24247ad50fda2b142f46b2\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\magon\.gradle\caches\transforms-3\53673f7728c16cd7057e7ffde8579471\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\magon\.gradle\caches\transforms-3\cfb38dcbdeecda9e14afc64422eca163\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\0928a38caabc4c094388db666dfe02a5\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\magon\.gradle\caches\transforms-3\7e37c290c53954f2c3e54894b935c1fe\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\magon\.gradle\caches\transforms-3\5657535f01bf71addea092df6c4c9593\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\magon\.gradle\caches\transforms-3\62fb20ba47ad1e357e85822438e21de2\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\aeaf8de85d7c5ea719c58c6183a252e4\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\a06b537ddc24e03387fd8b51c47c2f94\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\6152cb50a4ed726001f0cf54b60d51b7\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\6c96a6dd53fe98cfe9266e44435b0016\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\magon\.gradle\caches\transforms-3\e8d3c1379228a0b0856a244768915085\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:1:55-34:12
+INJECTED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:1:55-34:12
+INJECTED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:1:55-34:12
+	package
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:1:124-166
+		INJECTED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:1:55-34:12
+		INJECTED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:1:55-34:12
+		INJECTED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:1:65-123
+supports-screens
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:2:5-190
+	android:largeScreens
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:2:49-76
+	android:smallScreens
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:2:132-159
+	android:normalScreens
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:2:77-105
+	android:xlargeScreens
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:2:160-188
+	android:resizeable
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:2:106-131
+	android:anyDensity
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:2:23-48
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:3:5-66
+	android:name
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:3:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:4:5-78
+	android:name
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:4:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:5:22-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.CLEAR_APP_CACHE
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:8:5-73
+	android:name
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:8:22-71
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:9:22-78
+application
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:10:5-33:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\magon\.gradle\caches\transforms-3\4acacd2bc28d5ade8cea2b5f80465579\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\magon\.gradle\caches\transforms-3\4acacd2bc28d5ade8cea2b5f80465579\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\magon\.gradle\caches\transforms-3\0a618c83a77921ceebb5baa15018e71e\transformed\jetified-glide-4.8.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\magon\.gradle\caches\transforms-3\0a618c83a77921ceebb5baa15018e71e\transformed\jetified-glide-4.8.0\AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.material:material:1.6.0] C:\Users\magon\.gradle\caches\transforms-3\0a5353227f73467546d5456b9956b17e\transformed\material-1.6.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.0] C:\Users\magon\.gradle\caches\transforms-3\0a5353227f73467546d5456b9956b17e\transformed\material-1.6.0\AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\magon\.gradle\caches\transforms-3\38be96212fbf94c042b66189f154e58f\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\magon\.gradle\caches\transforms-3\38be96212fbf94c042b66189f154e58f\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\magon\.gradle\caches\transforms-3\6df8e99c50d10315cc2522c2ee00ae96\transformed\jetified-gifdecoder-4.8.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\magon\.gradle\caches\transforms-3\6df8e99c50d10315cc2522c2ee00ae96\transformed\jetified-gifdecoder-4.8.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.8.0] C:\Users\magon\.gradle\caches\transforms-3\817b2fb9475b60d41f673b4294c05843\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] C:\Users\magon\.gradle\caches\transforms-3\817b2fb9475b60d41f673b4294c05843\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\magon\.gradle\caches\transforms-3\8508431b56924959a90c594cfba04620\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\magon\.gradle\caches\transforms-3\8508431b56924959a90c594cfba04620\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\magon\.gradle\caches\transforms-3\53673f7728c16cd7057e7ffde8579471\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\magon\.gradle\caches\transforms-3\53673f7728c16cd7057e7ffde8579471\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\magon\.gradle\caches\transforms-3\cfb38dcbdeecda9e14afc64422eca163\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\magon\.gradle\caches\transforms-3\cfb38dcbdeecda9e14afc64422eca163\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] C:\Users\magon\.gradle\caches\transforms-3\817b2fb9475b60d41f673b4294c05843\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:10:176-202
+	android:label
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:10:118-150
+	android:hardwareAccelerated
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:10:45-80
+	android:largeHeap
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:10:151-175
+	android:icon
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:10:81-117
+	android:allowBackup
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:10:18-44
+	android:theme
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:10:203-234
+activity#ml.magsec.duplicatephotosremover.activity.SplashScreen
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:11:9-16:20
+	android:exported
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:11:151-174
+	android:configChanges
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:11:19-80
+	android:name
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:11:81-150
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:12:13-15:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:13:17-68
+	android:name
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:14:17-76
+	android:name
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:14:27-74
+activity#ml.magsec.duplicatephotosremover.activity.CPrivacyPolicyActivity
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:17:9-162
+	android:configChanges
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:17:19-80
+	android:name
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:17:81-160
+activity#ml.magsec.duplicatephotosremover.activity.MainActivity
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:18:9-152
+	android:configChanges
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:18:19-80
+	android:name
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:18:81-150
+activity#ml.magsec.duplicatephotosremover.activity.DisplayDuplicateImages
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:19:9-162
+	android:configChanges
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:19:19-80
+	android:name
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:19:81-160
+activity#ml.magsec.duplicatephotosremover.activity.TransparentOverLayActivity
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:20:9-237
+	android:configChanges
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:20:19-80
+	android:theme
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:20:165-235
+	android:name
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:20:81-164
+activity#ml.magsec.duplicatephotosremover.activity.ScanningForDuplicates
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:21:9-161
+	android:configChanges
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:21:19-80
+	android:name
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:21:81-159
+activity#ml.magsec.duplicatephotosremover.activity.PreviewImage
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:22:9-152
+	android:configChanges
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:22:19-80
+	android:name
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:22:81-150
+service#ml.magsec.duplicatephotosremover.service.KillNotificationsService
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:23:9-100
+	android:name
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:23:18-98
+service#ml.magsec.duplicatephotosremover.service.DeviceLockMonitorService
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:24:9-100
+	android:name
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:24:18-98
+receiver#ml.magsec.duplicatephotosremover.broadcastreceivers.NotificationDuplicates
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:25:9-110
+	android:name
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:25:19-108
+receiver#ml.magsec.duplicatephotosremover.broadcastreceivers.DeviceBootMonitoring
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:26:9-31:20
+	android:enabled
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:26:19-41
+	android:exported
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:26:193-216
+	android:permission
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:26:130-192
+	android:name
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:26:42-129
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:27:13-30:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:28:17-78
+	android:name
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:28:25-76
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:29:17-75
+	android:name
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:29:27-73
+meta-data#com.android.vending.derived.apk.id
+ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:32:9-89
+	android:value
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:32:70-87
+	android:name
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:32:20-69
+uses-sdk
+INJECTED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\magon\.gradle\caches\transforms-3\dc0eefeed2b91b9e6e248b9609327da3\transformed\jetified-library-2.1.4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\magon\.gradle\caches\transforms-3\dc0eefeed2b91b9e6e248b9609327da3\transformed\jetified-library-2.1.4\AndroidManifest.xml:6:5-8:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\magon\.gradle\caches\transforms-3\4acacd2bc28d5ade8cea2b5f80465579\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\magon\.gradle\caches\transforms-3\4acacd2bc28d5ade8cea2b5f80465579\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\magon\.gradle\caches\transforms-3\0a618c83a77921ceebb5baa15018e71e\transformed\jetified-glide-4.8.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\magon\.gradle\caches\transforms-3\0a618c83a77921ceebb5baa15018e71e\transformed\jetified-glide-4.8.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.material:material:1.6.0] C:\Users\magon\.gradle\caches\transforms-3\0a5353227f73467546d5456b9956b17e\transformed\material-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.0] C:\Users\magon\.gradle\caches\transforms-3\0a5353227f73467546d5456b9956b17e\transformed\material-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\magon\.gradle\caches\transforms-3\ef5460a38d188d8fe3b3011ceeafaf1a\transformed\jetified-appcompat-resources-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\magon\.gradle\caches\transforms-3\ef5460a38d188d8fe3b3011ceeafaf1a\transformed\jetified-appcompat-resources-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\magon\.gradle\caches\transforms-3\38be96212fbf94c042b66189f154e58f\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\magon\.gradle\caches\transforms-3\38be96212fbf94c042b66189f154e58f\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\magon\.gradle\caches\transforms-3\e6ac26bc31b0525876c1ee0daa4b42b9\transformed\appcompat-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\magon\.gradle\caches\transforms-3\e6ac26bc31b0525876c1ee0daa4b42b9\transformed\appcompat-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\ba0aa6a05d70330df74ef86e3e66c416\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\ba0aa6a05d70330df74ef86e3e66c416\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\59cf86b0e95c42c757877b47490fe1ff\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\59cf86b0e95c42c757877b47490fe1ff\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\magon\.gradle\caches\transforms-3\a7a3148192a0b7e08961cefd80a0b19d\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\magon\.gradle\caches\transforms-3\a7a3148192a0b7e08961cefd80a0b19d\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\ad407481afe78ca634ed4ad0a3669d85\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\ad407481afe78ca634ed4ad0a3669d85\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\magon\.gradle\caches\transforms-3\19c95bad50625a1755e0a425074f0a84\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\magon\.gradle\caches\transforms-3\19c95bad50625a1755e0a425074f0a84\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\magon\.gradle\caches\transforms-3\6df8e99c50d10315cc2522c2ee00ae96\transformed\jetified-gifdecoder-4.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\magon\.gradle\caches\transforms-3\6df8e99c50d10315cc2522c2ee00ae96\transformed\jetified-gifdecoder-4.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\magon\.gradle\caches\transforms-3\5fed0b232906c83cf5a2dd4ab6235adb\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\magon\.gradle\caches\transforms-3\5fed0b232906c83cf5a2dd4ab6235adb\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] C:\Users\magon\.gradle\caches\transforms-3\fbb7152fb5e5896e301d973bc4c86e5a\transformed\jetified-activity-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] C:\Users\magon\.gradle\caches\transforms-3\fbb7152fb5e5896e301d973bc4c86e5a\transformed\jetified-activity-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\c11fbe87c75d8fe6428fb821027ed111\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\c11fbe87c75d8fe6428fb821027ed111\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\abd7aaeb79eae65c1bd1e0e024975ffc\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\abd7aaeb79eae65c1bd1e0e024975ffc\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\89288d471df0a01a25fc4f1bda82615a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\89288d471df0a01a25fc4f1bda82615a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\f0cab340ec6bb2cd6987c858e490b680\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\f0cab340ec6bb2cd6987c858e490b680\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\magon\.gradle\caches\transforms-3\949540cf97b73edd0867422b27839614\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\magon\.gradle\caches\transforms-3\949540cf97b73edd0867422b27839614\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\magon\.gradle\caches\transforms-3\dd5a35773a831c38ad0f8a9228c42db9\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\magon\.gradle\caches\transforms-3\dd5a35773a831c38ad0f8a9228c42db9\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\magon\.gradle\caches\transforms-3\ef66357e44e61211fd999bc0b772af61\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\magon\.gradle\caches\transforms-3\ef66357e44e61211fd999bc0b772af61\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\decfbcb37dc8b41266844afbfb1f067a\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\decfbcb37dc8b41266844afbfb1f067a\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\c45f6ae8a109b7db9dbad709e883ce96\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\c45f6ae8a109b7db9dbad709e883ce96\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\magon\.gradle\caches\transforms-3\7d1b5a610444545961236545946853fb\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\magon\.gradle\caches\transforms-3\7d1b5a610444545961236545946853fb\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\magon\.gradle\caches\transforms-3\095124a5932bc72401f54ebaedaf9de5\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\magon\.gradle\caches\transforms-3\095124a5932bc72401f54ebaedaf9de5\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\8665c694f9f29322a821e2e352139399\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\8665c694f9f29322a821e2e352139399\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\magon\.gradle\caches\transforms-3\8d54b194ad1e83c8045b6464cb195c0e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\magon\.gradle\caches\transforms-3\8d54b194ad1e83c8045b6464cb195c0e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\magon\.gradle\caches\transforms-3\df6d1d33def4b10b0423cee40a7bdb7a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\magon\.gradle\caches\transforms-3\df6d1d33def4b10b0423cee40a7bdb7a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\a27c6aa758d032b426a7d4666caa658d\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\a27c6aa758d032b426a7d4666caa658d\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\734d9af1af9e8df1bb09c4b95ff0dac1\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\734d9af1af9e8df1bb09c4b95ff0dac1\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\dbf065fb828ca57a98cd6512f2e20cc9\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\dbf065fb828ca57a98cd6512f2e20cc9\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\4c3df3124742de66495eccc736592590\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\4c3df3124742de66495eccc736592590\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\magon\.gradle\caches\transforms-3\684a2495bc5be7cf5f5d25e0bc1f6cce\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\magon\.gradle\caches\transforms-3\684a2495bc5be7cf5f5d25e0bc1f6cce\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] C:\Users\magon\.gradle\caches\transforms-3\817b2fb9475b60d41f673b4294c05843\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] C:\Users\magon\.gradle\caches\transforms-3\817b2fb9475b60d41f673b4294c05843\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\1c7dcfd24ba625f74349331b28a8d942\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\1c7dcfd24ba625f74349331b28a8d942\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\magon\.gradle\caches\transforms-3\8508431b56924959a90c594cfba04620\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\magon\.gradle\caches\transforms-3\8508431b56924959a90c594cfba04620\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\magon\.gradle\caches\transforms-3\1833f4e8a2d3ce47a893859fffcb915e\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\magon\.gradle\caches\transforms-3\1833f4e8a2d3ce47a893859fffcb915e\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\a183006c3d24247ad50fda2b142f46b2\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\a183006c3d24247ad50fda2b142f46b2\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\magon\.gradle\caches\transforms-3\53673f7728c16cd7057e7ffde8579471\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\magon\.gradle\caches\transforms-3\53673f7728c16cd7057e7ffde8579471\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\magon\.gradle\caches\transforms-3\cfb38dcbdeecda9e14afc64422eca163\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\magon\.gradle\caches\transforms-3\cfb38dcbdeecda9e14afc64422eca163\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\0928a38caabc4c094388db666dfe02a5\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\0928a38caabc4c094388db666dfe02a5\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\magon\.gradle\caches\transforms-3\7e37c290c53954f2c3e54894b935c1fe\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\magon\.gradle\caches\transforms-3\7e37c290c53954f2c3e54894b935c1fe\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\magon\.gradle\caches\transforms-3\5657535f01bf71addea092df6c4c9593\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\magon\.gradle\caches\transforms-3\5657535f01bf71addea092df6c4c9593\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\magon\.gradle\caches\transforms-3\62fb20ba47ad1e357e85822438e21de2\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\magon\.gradle\caches\transforms-3\62fb20ba47ad1e357e85822438e21de2\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\aeaf8de85d7c5ea719c58c6183a252e4\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\aeaf8de85d7c5ea719c58c6183a252e4\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\a06b537ddc24e03387fd8b51c47c2f94\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\a06b537ddc24e03387fd8b51c47c2f94\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\6152cb50a4ed726001f0cf54b60d51b7\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\6152cb50a4ed726001f0cf54b60d51b7\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\6c96a6dd53fe98cfe9266e44435b0016\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\magon\.gradle\caches\transforms-3\6c96a6dd53fe98cfe9266e44435b0016\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\magon\.gradle\caches\transforms-3\e8d3c1379228a0b0856a244768915085\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\magon\.gradle\caches\transforms-3\e8d3c1379228a0b0856a244768915085\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\magon\.gradle\caches\transforms-3\8508431b56924959a90c594cfba04620\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\magon\.gradle\caches\transforms-3\8508431b56924959a90c594cfba04620\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\magon\.gradle\caches\transforms-3\cfb38dcbdeecda9e14afc64422eca163\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\magon\.gradle\caches\transforms-3\cfb38dcbdeecda9e14afc64422eca163\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\magon\.gradle\caches\transforms-3\8508431b56924959a90c594cfba04620\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\magon\.gradle\caches\transforms-3\8508431b56924959a90c594cfba04620\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\magon\.gradle\caches\transforms-3\8508431b56924959a90c594cfba04620\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78

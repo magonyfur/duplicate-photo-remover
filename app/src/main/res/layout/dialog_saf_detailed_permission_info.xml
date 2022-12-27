@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:background="@color/top_bg" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginBottom="@dimen/tr_top_space" android:text="Information" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="250.0dip" android:layout_height="wrap_content">
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/tv_detailed_information" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tr_top_space" android:layout_marginBottom="@dimen/tr_top_space" android:text="You selected the sub folder Please select root directory for deleting file(s) " />
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/dim_height" android:layout_marginBottom="@dimen/tr_top_space" android:src="@drawable/saf_permission_detailed_information" />
+    </LinearLayout>
+    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="15.0dip" android:textColor="@color/white" android:id="@id/btn_permission_cancel" android:background="@color/top_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:text="Cancel" android:layout_weight="1.0" />
+        <Button android:textSize="15.0dip" android:textColor="@color/white" android:id="@id/btn_permission_grand" android:background="@color/top_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:text="Grant Permission" android:layout_weight="1.0" />
+    </TableRow>
+</LinearLayout>

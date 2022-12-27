@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar android:id="@id/progresstoolbar" android:background="@color/top_bg" android:layout_width="fill_parent" android:layout_height="@dimen/abc_action_bar_default_height_material" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout android:id="@id/framelayoutforgif" android:background="@color/top_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/progresstoolbar">
+        <TextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom|center|right" android:id="@id/notificationtext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="35.0dip" android:text="@string/notification_text" android:layout_alignParentBottom="true" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <pl.droidsonroids.gif.GifImageView android:layout_gravity="center" android:id="@id/view" android:layout_width="500.0dip" android:layout_height="300.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/view" android:layout_alignParentLeft="true">
+                <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/scanningduplicatetext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Scanning photos, please wait..." android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="30.0dip" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/numberoffileinscanning" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="15.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/progressbarmessage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/please_wait" android:layout_alignParentBottom="true" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

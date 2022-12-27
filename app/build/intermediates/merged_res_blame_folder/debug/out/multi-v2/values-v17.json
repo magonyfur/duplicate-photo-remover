@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "ml.magsec.duplicatephotosremover.app-mergeDebugResources-32:/values-v17/values-v17.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\magon\\Desktop\\magsec_apps\\apps\\pic_dupe_finder\\DPR\\app\\src\\main\\res\\values-v17\\styles.xml",
+                    "from": {
+                        "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,240,473,644,807,992,1231,1487,1668,1852,2031,2315,2525,2746",
+                        "endLines": "4,8,11,14,17,21,25,28,31,34,38,41,45,49",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "234,467,638,801,986,1225,1481,1662,1846,2025,2309,2519,2740,3080"
+                    },
+                    "to": {
+                        "startLines": "2,5,9,12,15,25,33,37,40,43,46,50,53,57",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,235,464,632,792,1369,1828,2080,2258,2439,2615,2895,3102,3319",
+                        "endLines": "4,8,11,14,17,28,36,39,42,45,49,52,56,60",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "230,459,627,787,969,1599,2075,2253,2434,2610,2890,3097,3314,3650"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\magon\\.gradle\\caches\\transforms-3\\e6ac26bc31b0525876c1ee0daa4b42b9\\transformed\\appcompat-1.5.1\\res\\values-v17\\values-v17.xml",
+                    "from": {
+                        "startLines": "18,22,29",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "936,1161,1559",
+                        "endLines": "21,24,32",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "1156,1326,1778"
+                    },
+                    "to": {
+                        "startLines": "18,22,29",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "974,1199,1604",
+                        "endLines": "21,24,32",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "1194,1364,1823"
+                    }
+                }
+            ]
+        }
+    ]
+}

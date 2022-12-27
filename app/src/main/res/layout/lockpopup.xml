@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_total_layout" android:background="@android:color/white" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.08">
+        <RelativeLayout android:id="@id/rl_title" android:background="@color/top_bg" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/memoryregaintitle" android:padding="6.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exceptions" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_weight="1.3">
+            <TextView android:textSize="15.0sp" android:textStyle="normal" android:textColor="#ff0000ff" android:gravity="center_horizontal" android:id="@id/lockText" android:paddingLeft="10.0sp" android:paddingRight="10.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0sp" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip">
+            <Button android:textSize="15.0dip" android:textColor="@color/white" android:id="@id/lockCancel" android:background="@color/top_bg" android:layout_width="100.0dip" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="10.0dip" android:text="Cancel" android:layout_weight="1.0" />
+            <Button android:textSize="15.0dip" android:textColor="@color/white" android:id="@id/lockOk" android:background="@color/top_bg" android:layout_width="100.0dip" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="20.0dip" android:text="ok" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

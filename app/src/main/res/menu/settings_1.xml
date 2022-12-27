@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/action_home" android:title="@string/action_home" />--><item android:id="@id/action_rescan" android:title="@string/action_rescan" />--><item android:id="@id/action_sort_by" android:title="@string/action_sortby" />--><item android:id="@id/action_clear_exception" android:title="@string/action_clear_exception" />--><item android:id="@id/action_selectall" android:title="@string/action_auto_mark" />
+    <item android:id="@id/action_deselectall" android:title="@string/action_un_mark_all" />
+    <item android:id="@id/action_setting" android:orderInCategory="100" android:title="@string/action_settings" />
+</menu>

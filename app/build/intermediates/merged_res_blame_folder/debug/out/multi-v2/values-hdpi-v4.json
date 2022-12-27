@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "ml.magsec.duplicatephotosremover.app-mergeDebugResources-32:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\magon\\Desktop\\magsec_apps\\apps\\pic_dupe_finder\\DPR\\app\\src\\main\\res\\values-hdpi\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "347"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "341"
+                    }
+                }
+            ]
+        }
+    ]
+}

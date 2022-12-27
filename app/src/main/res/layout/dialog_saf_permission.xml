@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:background="@color/top_bg" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginBottom="@dimen/tr_top_space" android:text="Information" />
+    <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tr_top_space" android:layout_marginTop="@dimen/tr_top_space" android:layout_marginBottom="@dimen/tr_top_space" android:text="Using Android Lollipop 5.0 or above?" />
+    <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tr_top_space" android:layout_marginTop="@dimen/tr_top_space" android:text="Please follow below instructions to grant \n permission to delete selected photo(s)" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="300.0dip" android:layout_marginTop="@dimen/tr_top_space" android:layout_marginBottom="@dimen/tr_top_space" android:src="@drawable/saf_permission_overlay" />
+    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="15.0dip" android:textColor="@color/white" android:id="@id/btn_permission_cancel" android:background="@color/top_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:text="Cancel" android:layout_weight="1.0" />
+        <Button android:textSize="15.0dip" android:textColor="@color/white" android:id="@id/btn_permission_grand" android:background="@color/top_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:text="Grant Permission" android:layout_weight="1.0" />
+    </TableRow>
+</LinearLayout>

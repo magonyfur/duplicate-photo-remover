@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@color/light_deep_yellow" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <CheckBox android:id="@id/cb_grp_checkbox" android:background="@drawable/customcheckbox" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="7.0dip" android:button="@null" style="@style/checkboxStyleType1" />
+        <TextView android:textSize="16.0dip" android:textStyle="normal" android:textColor="@color/top_bg" android:id="@id/tv_grp_name" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="7.0dip" android:text="Set:" />
+    </LinearLayout>
+    <ml.magsec.duplicatephotosremover.customviews.MyGridView android:gravity="center" android:id="@id/gv_images" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:drawSelectorOnTop="true" android:verticalSpacing="5.0dip" android:stretchMode="columnWidth" android:columnWidth="100.0dip" android:numColumns="4" />
+</LinearLayout>

@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "ml.magsec.duplicatephotosremover.app-mergeDebugResources-32:/values-large-v4/values-large-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\magon\\.gradle\\caches\\transforms-3\\0a5353227f73467546d5456b9956b17e\\transformed\\material-1.6.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,10",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,177,311,752",
+                        "endLines": "2,3,9,15",
+                        "endColumns": "121,133,10,10",
+                        "endOffsets": "172,306,747,1190"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,19",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "800,922,1056,1497",
+                        "endLines": "11,12,18,24",
+                        "endColumns": "121,133,10,10",
+                        "endOffsets": "917,1051,1492,1935"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\magon\\Desktop\\magsec_apps\\apps\\pic_dupe_finder\\DPR\\app\\src\\main\\res\\values-large\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "57,120,199,273,351,424,500",
+                        "endColumns": "61,77,72,76,71,74,73",
+                        "endOffsets": "114,193,267,345,418,494,569"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,117,195,268,345,417,492",
+                        "endColumns": "61,77,72,76,71,74,73",
+                        "endOffsets": "112,190,263,340,412,487,561"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\magon\\Desktop\\magsec_apps\\apps\\pic_dupe_finder\\DPR\\app\\src\\main\\res\\values-large\\styles.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "57,170",
+                        "endColumns": "111,123",
+                        "endOffsets": "164,289"
+                    },
+                    "to": {
+                        "startLines": "9,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "566,677",
+                        "endColumns": "110,122",
+                        "endOffsets": "672,795"
+                    }
+                }
+            ]
+        }
+    ]
+}

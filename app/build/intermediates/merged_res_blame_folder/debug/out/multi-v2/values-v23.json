@@ -1,0 +1,66 @@
+{
+    "logs": [
+        {
+            "outputFile": "ml.magsec.duplicatephotosremover.app-mergeDebugResources-32:/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\magon\\.gradle\\caches\\transforms-3\\e6ac26bc31b0525876c1ee0daa4b42b9\\transformed\\appcompat-1.5.1\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "34,39,46",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1975,2443,3002",
+                        "endLines": "34,42,49",
+                        "endColumns": "118,12,12",
+                        "endOffsets": "2089,2662,3227"
+                    },
+                    "to": {
+                        "startLines": "22,25,32",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1721,2086,2666",
+                        "endLines": "22,28,35",
+                        "endColumns": "118,12,12",
+                        "endOffsets": "1835,2305,2891"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\magon\\.gradle\\caches\\transforms-3\\0a5353227f73467546d5456b9956b17e\\transformed\\material-1.6.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,5,8,13,17,20,23,26,31,34,38",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,271,481,801,1038,1245,1452,1655,1987,2189,2454",
+                        "endLines": "4,7,12,16,19,22,25,30,33,37,41",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "266,476,796,1033,1240,1447,1650,1982,2184,2449,2722"
+                    },
+                    "to": {
+                        "startLines": "39,42,45,50,54,57,60,63,68,71,75",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3048,3264,3474,3794,4031,4238,4445,4648,4980,5182,5447",
+                        "endLines": "41,44,49,53,56,59,62,67,70,74,78",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "3259,3469,3789,4026,4233,4440,4643,4975,5177,5442,5715"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\magon\\Desktop\\magsec_apps\\apps\\pic_dupe_finder\\DPR\\app\\src\\main\\res\\values-v23\\styles.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,14,22,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,201,345,429,1292,1897,525,661,775,899,1015,1137",
+                        "endLines": "2,3,4,5,21,29,6,7,8,9,10,13",
+                        "endColumns": "142,142,82,94,12,12,134,112,122,114,120,12",
+                        "endOffsets": "195,339,423,519,1891,2508,655,769,893,1009,1131,1286"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,14,23,24,29,30,31,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,197,339,421,515,1112,1840,1974,2310,2432,2546,2896",
+                        "endLines": "2,3,4,5,13,21,23,24,29,30,31,38",
+                        "endColumns": "141,141,81,93,12,12,133,111,121,113,119,12",
+                        "endOffsets": "192,334,416,510,1107,1716,1969,2081,2427,2541,2661,3043"
+                    }
+                }
+            ]
+        }
+    ]
+}

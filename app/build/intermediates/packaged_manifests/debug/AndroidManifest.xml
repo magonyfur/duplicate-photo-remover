@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ml.magsec.duplicatephotosremover"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="30" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="ml.magsec.duplicatephotosremover.activity.SplashScreen"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ml.magsec.duplicatephotosremover.activity.CPrivacyPolicyActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="ml.magsec.duplicatephotosremover.activity.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="ml.magsec.duplicatephotosremover.activity.DisplayDuplicateImages"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="ml.magsec.duplicatephotosremover.activity.TransparentOverLayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="ml.magsec.duplicatephotosremover.activity.ScanningForDuplicates"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="ml.magsec.duplicatephotosremover.activity.PreviewImage"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <service android:name="ml.magsec.duplicatephotosremover.service.KillNotificationsService" />
+        <service android:name="ml.magsec.duplicatephotosremover.service.DeviceLockMonitorService" />
+
+        <receiver android:name="ml.magsec.duplicatephotosremover.broadcastreceivers.NotificationDuplicates" />
+        <receiver
+            android:name="ml.magsec.duplicatephotosremover.broadcastreceivers.DeviceBootMonitoring"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.android.vending.derived.apk.id"
+            android:value="1" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="ml.magsec.duplicatephotosremover.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

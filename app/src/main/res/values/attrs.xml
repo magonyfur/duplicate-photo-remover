@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textColorError" format="reference|color" />
+    <attr name="dsb_mirrorForRtl" format="boolean" />
+    <attr name="dsb_rippleColor" format="reference|color" />
+    <attr name="dsb_progressColor" format="reference|color" />
+    <attr name="dsb_trackColor" format="reference|color" />
+    //dbs_indicator
+    <attr name="dsb_indicatorColor" format="reference|color" />
+    <attr name="dsb_indicatorElevation" format="dimension" />
+    <attr name="dsb_indicatorFormatter" format="reference|string" />
+    <attr name="dsb_indicatorPopupEnabled" format="boolean" />
+    <attr name="dsb_indicatorSeparation" format="integer|dimension" />
+    <attr name="dsb_indicatorTextAppearance" format="reference" />
+    //dbs_interface
+    <attr name="dsb_max" format="integer|dimension" />
+    <attr name="dsb_min" format="integer|dimension" />
+    <attr name="dsb_value" format="integer|dimension" />
+</resources>
