@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">456239264480-9a74nlu4f2gkged5usok4gen16bd5b7l.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">456239264480</string>
+    <string name="google_api_key" translatable="false">AIzaSyAe5hHP8Hz8lL8PswDsyPv3SbsFEmawo4w</string>
+    <string name="google_app_id" translatable="false">1:456239264480:android:2619852bb89940c8c45685</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAe5hHP8Hz8lL8PswDsyPv3SbsFEmawo4w</string>
+    <string name="google_storage_bucket" translatable="false">duplicatephotosremover-d6a16.appspot.com</string>
+    <string name="project_id" translatable="false">duplicatephotosremover-d6a16</string>
+</resources>

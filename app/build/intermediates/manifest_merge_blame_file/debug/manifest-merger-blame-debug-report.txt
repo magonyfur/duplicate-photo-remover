@@ -1,0 +1,190 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ml.magsec.duplicatephotosremover"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml
+10
+11    <supports-screens
+11-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:2:5-190
+12        android:anyDensity="true"
+12-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:2:23-48
+13        android:largeScreens="true"
+13-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:2:49-76
+14        android:normalScreens="true"
+14-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:2:77-105
+15        android:resizeable="true"
+15-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:2:106-131
+16        android:smallScreens="true"
+16-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:2:132-159
+17        android:xlargeScreens="true" />
+17-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:2:160-188
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:3:5-66
+19-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:3:22-64
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:4:5-78
+20-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:4:22-76
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:5:5-67
+21-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:5:22-65
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:6:5-79
+22-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:6:22-77
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:7:5-80
+23-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:7:22-78
+24    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+24-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:8:5-73
+24-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:8:22-71
+25    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+25-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:9:5-80
+25-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:9:22-78
+26
+27    <application
+27-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:10:5-33:19
+28        android:allowBackup="true"
+28-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:10:18-44
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.8.0] C:\Users\magon\.gradle\caches\transforms-3\817b2fb9475b60d41f673b4294c05843\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:hardwareAccelerated="false"
+32-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:10:45-80
+33        android:icon="@drawable/ic_launcher"
+33-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:10:81-117
+34        android:label="@string/app_name"
+34-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:10:118-150
+35        android:largeHeap="true"
+35-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:10:151-175
+36        android:supportsRtl="true"
+36-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:10:176-202
+37        android:theme="@style/AppTheme" >
+37-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:10:203-234
+38        <activity
+38-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:11:9-16:20
+39            android:name="ml.magsec.duplicatephotosremover.activity.SplashScreen"
+39-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:11:81-150
+40            android:configChanges="keyboardHidden|orientation|screenSize"
+40-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:11:19-80
+41            android:exported="true" >
+41-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:11:151-174
+42            <intent-filter>
+42-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:12:13-15:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:13:17-68
+43-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:13:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:14:17-76
+45-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:14:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:17:9-162
+49            android:name="ml.magsec.duplicatephotosremover.activity.CPrivacyPolicyActivity"
+49-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:17:81-160
+50            android:configChanges="keyboardHidden|orientation|screenSize" />
+50-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:17:19-80
+51        <activity
+51-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:18:9-152
+52            android:name="ml.magsec.duplicatephotosremover.activity.MainActivity"
+52-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:18:81-150
+53            android:configChanges="keyboardHidden|orientation|screenSize" />
+53-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:18:19-80
+54        <activity
+54-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:19:9-162
+55            android:name="ml.magsec.duplicatephotosremover.activity.DisplayDuplicateImages"
+55-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:19:81-160
+56            android:configChanges="keyboardHidden|orientation|screenSize" />
+56-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:19:19-80
+57        <activity
+57-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:20:9-237
+58            android:name="ml.magsec.duplicatephotosremover.activity.TransparentOverLayActivity"
+58-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:20:81-164
+59            android:configChanges="keyboardHidden|orientation|screenSize"
+59-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:20:19-80
+60            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+60-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:20:165-235
+61        <activity
+61-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:21:9-161
+62            android:name="ml.magsec.duplicatephotosremover.activity.ScanningForDuplicates"
+62-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:21:81-159
+63            android:configChanges="keyboardHidden|orientation|screenSize" />
+63-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:21:19-80
+64        <activity
+64-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:22:9-152
+65            android:name="ml.magsec.duplicatephotosremover.activity.PreviewImage"
+65-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:22:81-150
+66            android:configChanges="keyboardHidden|orientation|screenSize" />
+66-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:22:19-80
+67
+68        <service android:name="ml.magsec.duplicatephotosremover.service.KillNotificationsService" />
+68-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:23:9-100
+68-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:23:18-98
+69        <service android:name="ml.magsec.duplicatephotosremover.service.DeviceLockMonitorService" />
+69-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:24:9-100
+69-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:24:18-98
+70
+71        <receiver android:name="ml.magsec.duplicatephotosremover.broadcastreceivers.NotificationDuplicates" />
+71-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:25:9-110
+71-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:25:19-108
+72        <receiver
+72-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:26:9-31:20
+73            android:name="ml.magsec.duplicatephotosremover.broadcastreceivers.DeviceBootMonitoring"
+73-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:26:42-129
+74            android:enabled="true"
+74-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:26:19-41
+75            android:exported="true"
+75-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:26:193-216
+76            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+76-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:26:130-192
+77            <intent-filter>
+77-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:27:13-30:29
+78                <action android:name="android.intent.action.BOOT_COMPLETED" />
+78-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:28:17-78
+78-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:28:25-76
+79
+80                <category android:name="android.intent.category.DEFAULT" />
+80-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:29:17-75
+80-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:29:27-73
+81            </intent-filter>
+82        </receiver>
+83
+84        <meta-data
+84-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:32:9-89
+85            android:name="com.android.vending.derived.apk.id"
+85-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:32:20-69
+86            android:value="1" />
+86-->C:\Users\magon\Desktop\magsec_apps\apps\pic_dupe_finder\DPR\app\src\main\AndroidManifest.xml:32:70-87
+87
+88        <provider
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+89            android:name="androidx.startup.InitializationProvider"
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+90            android:authorities="ml.magsec.duplicatephotosremover.androidx-startup"
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+91            android:exported="false" >
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+92            <meta-data
+92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+93                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+94                android:value="androidx.startup" />
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\magon\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+95            <meta-data
+95-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\magon\.gradle\caches\transforms-3\8508431b56924959a90c594cfba04620\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+96                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+96-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\magon\.gradle\caches\transforms-3\8508431b56924959a90c594cfba04620\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+97                android:value="androidx.startup" />
+97-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\magon\.gradle\caches\transforms-3\8508431b56924959a90c594cfba04620\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+98        </provider>
+99    </application>
+100
+101</manifest>
